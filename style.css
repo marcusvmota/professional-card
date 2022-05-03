@@ -124,7 +124,7 @@ overflow: hidden;
 }
 .card .content .details .actionBtn button
 {
-    padding: 10px 10px;
+    padding: 0.8rem 0.8rem;
     border-radius: 5px;
     border: none;
     outline: none;
