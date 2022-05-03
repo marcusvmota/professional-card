@@ -74,7 +74,7 @@ overflow: hidden;
 }
 .card .content .details
 {
-    padding: 40px;
+    padding: 50px;
     text-align: center;
     width: 100%;
     transition: 0.5s;
@@ -124,7 +124,7 @@ overflow: hidden;
 }
 .card .content .details .actionBtn button
 {
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: none;
     outline: none;
