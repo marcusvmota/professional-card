@@ -23,8 +23,8 @@ body
 .card
 {
     position: relative;
-    width: 350px;
-    height: 190px;
+    width: 22rem;
+    height: 12rem;
     background-image: url("./WhatsApp\ Image\ 2022-05-03\ at\ 16.09.07.jpeg");
     background-size: cover;
     /*background: rgb(44, 44, 44);*/
@@ -34,7 +34,7 @@ body
 }
 .card:hover
 {
-    height: 450px;
+    height: 30rem;
 }
 .imgBx
 {
