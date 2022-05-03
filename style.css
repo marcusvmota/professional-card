@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./black-texture.jpg");
+    Background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+.card
+{
+    position: relative;
+    width: 350px;
+    height: 190px;
+    background-image: url("./WhatsApp\ Image\ 2022-05-03\ at\ 16.09.07.jpeg");
+    background-size: cover;
+    /*background: rgb(44, 44, 44);*/
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+.card:hover
+{
+    height: 450px;
+}
+.imgBx
+{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover .imgBx
+{
+    width: 250px;
+    height: 250px;
+}
+.imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.card .content
+{
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+overflow: hidden;
+}
+.card .content .details
+{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(150px);
+}
+.card:hover .content .details
+{
+    transform: translateY(0px);
+}
+.card .content .details h2
+{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.25em;
+
+}
+.card .content .details h2 span
+{
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.card .content .details .data
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.card .content .details .data h3
+{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.card .content .details .data h3 span
+{
+    font-size: 0.85em;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.card .content .details .actionBtn
+{
+    display: flex;
+    justify-content: space-between;
+}
+.card .content .details .actionBtn button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background-image: linear-gradient(#eebb54, #d67d29, #da8619);
+    cursor: pointer;
+    color: white;
+}
+.logo
+{       display: flex;
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        justify-content: center;
+
+}
