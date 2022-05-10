@@ -91,7 +91,6 @@ body {
   font-size: 0.85em;
   font-weight: 400;
   opacity: 0.5;
-
 }
 .card .content .details .actionBtn {
   display: flex;
@@ -116,7 +115,7 @@ body {
   width: 100%;
   height: 50px;
   position: absolute;
-  bottom: 1px;
+  bottom: 2px;
   left: 0;
   justify-content: center;
 }
@@ -153,6 +152,6 @@ body {
 
   .logo {
     height: 50px;
-    bottom: 10px;
+    bottom: 20px;
   }
 }
