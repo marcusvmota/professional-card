@@ -78,7 +78,7 @@ body {
 .card .content .details .data {
   display: flex;
   justify-content: center;
-  margin: 35px 0;
+  margin: 40px 0;
 }
 .card .content .details .data h3 {
   font-size: 1em;
@@ -91,6 +91,7 @@ body {
   font-size: 0.85em;
   font-weight: 400;
   opacity: 0.5;
+
 }
 .card .content .details .actionBtn {
   display: flex;
@@ -153,16 +154,5 @@ body {
   .logo {
     height: 50px;
     bottom: 10px;
-  }
-}
-@media screen and (max-height: 500px){
-  .logo {
-    display: flex;
-    width: 100%;
-    height: 10px;
-    position: absolute;
-    bottom: 1px;
-    left: 0;
-    justify-content: center;
   }
 }
